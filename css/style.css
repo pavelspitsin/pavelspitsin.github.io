@@ -1,0 +1,39 @@
+.site-header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.block {
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+	margin-bottom: 1.25rem; 
+}
+
+.block-body {
+	padding: 1.25rem;
+}
+
+.block-img {
+	margin: 1.20rem 0;
+}
+
+.game-container {
+	margin: 1.50rem 0;
+	overflow: auto;
+}
+
+.game-container iframe {
+	border: 1px solid rgba(0,0,0,.125);
+}
+
+.game-description {
+	margin-top: 1.5rem;
+	margin-bottom: 2rem;
+}
+.game-description h5 {
+	line-height: 3rem;
+}
+
+.game-description p {
+	line-height: 1rem;
+}
+/*.block + .block { margin-top: 1.25rem; }*/
