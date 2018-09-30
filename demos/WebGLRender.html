@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
-	<title>Pavel Spitsin | Demos</title>  
+		<title>WebGL Render</title>  
   </head>
 <body>
 <div class="container">
@@ -28,14 +28,22 @@
 		</nav>
 	</header>
 	<br/>
-	<div class="content">
-		<div class="block">
-			<div class="block-body">
-				<h5>WebGl Render</h5>
-				<img src="/img/webgl_render.png"  width="100%" class="img-thumbnail block-img" alt="Circle Hunter Unity game">
-				<p>Demo rendering of 3d models using Phong lighting model etc.</p>
-				<a class="btn btn-secondary" href="/demos/WebGLRender.html" role="button">More</a>
-			</div>
+	<div class="container h-100">
+		<h2 class="text-center">WebGL Render</h2>
+		<div class="game-description">
+			<h5>Description</h5>
+			<p>This demo is the result of my study of WebGl and computer graphics in general.</p>
+			<p>At the moment the following is done:</p>
+			<ul>
+				<li>Phong lighting</li>
+				<li>Loading 3d models and materials (*.obj, *.mtl)</li>
+				<li>Normal mapping</li>
+			</ul>
+			<br/>
+			<p><a href="https://github.com/pavelspitsin/WebGL_light">Source code</a></p>
+		</div>
+		<div class="game-container">
+			<iframe class="test" src="/Projects/Demos/WebGLLight/index.html" width="900" height="530"></iframe>
 		</div>
 	</div>
 </div>
